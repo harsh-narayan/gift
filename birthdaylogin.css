@@ -5,8 +5,6 @@
 }
 
 body{
-    background: url(pie\ chart\ a.jpg);
-    background-attachment:  fixed;
     height: 100vh;
     display: flex;
     justify-content:center ;
