@@ -1,0 +1,84 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    background-color: rgba(216, 199, 176);
+    flex-direction: column;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    width: 30%;
+    height: 50vh;
+    /* margin: auto; */
+    /* top: 20%; */
+    align-items: center ;
+    justify-content: center;
+    padding: 27px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.inp{
+    /* border-style: hidden; */
+    /* width: 100%; */
+    font-family: 'EB Garamond', serif;
+    margin: 10px auto;
+    padding: 10px 6px;
+}
+
+input[type="text"], input[type='password']{
+    outline: none;
+    padding: 5px 15px;
+    border: 1px solid rgb(81, 121, 122);
+    border-radius: 5px;
+    text-align: center;
+}
+
+#log{
+    padding: 7px;
+    /* display: block; */
+    background-color: rgb(41, 168, 68);
+    width: 120px;
+    cursor: pointer;
+}
+
+#log:hover, #log:active{
+    padding: 5px;
+    display: block;
+    background-color: rgba(41, 168, 69, 0.747);
+    width: 115px;
+    cursor: pointer;
+}
+
+#hintbtn, #close{
+    margin: 5px;
+    padding: 4px;
+    border-radius: 14px;
+}
+
+#hintbtn:hover, #close:hover, #hintbtn:active, #close:active {
+    margin: 5px;
+    padding: 3px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+
+#hints{
+    display: none;
+    margin: 2px;
+    padding: 10px;
+}

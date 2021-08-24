@@ -1,0 +1,35 @@
+.container{
+    padding: 10px;
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0px;
+}
+
+.inp{
+    margin: 3px auto;
+    padding: 4px;
+}
+
+input[type="text"], input[type='password']{
+    padding: 3px 7px;
+}
+
+#log{
+    padding: 4px;
+}
+
+#hints{
+    margin: 3px;
+    padding: 3px;
+}
+
+#hintbtn, #close{
+    padding: 4px;
+    border-radius: 14px;
+}
+
+#hintbtn:hover, #close:hover, #hintbtn:active, #close:active {
+    padding: 3px;
+    border-radius: 14px;
+    cursor: pointer;
+}
