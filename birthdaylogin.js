@@ -9,6 +9,9 @@ function closes(){
 }
 
 function login(){
+        window.location.href="happybirthdayameesha.html";        
+    
+    
     var uname = document.getElementById("uname").value;
     var pword = document.getElementById("pword").value;
     
