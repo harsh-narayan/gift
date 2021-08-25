@@ -8,5 +8,5 @@ function sub() {
     }
 
 
-    window.alert("thank you for subscribing to " + p + ". i wil communicate with you through " + mail + " plan. Send a screenshot of this to me on whatsapp to verify the purchase.");
+    window.alert("thank you for subscribing to " + p + " plan. i wil communicate with you through " + mail + ". Send a screenshot of this to me on whatsapp to verify the purchase.");
 }
