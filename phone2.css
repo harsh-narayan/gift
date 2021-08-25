@@ -1,0 +1,22 @@
+#pie{
+    width: 80vw;
+}
+
+.wish, .wish2, .wish3{
+    font-size: 20px;
+    padding: 0px 10px;
+}
+
+.subt, a{
+    padding: 3px;
+    font-size: 14px;
+}
+
+.heading{
+    margin-bottom: 8px;
+}
+
+.letter{
+    font-size: 10px;
+    padding: 3px 10px;
+}
