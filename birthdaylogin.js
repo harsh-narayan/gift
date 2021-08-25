@@ -8,9 +8,7 @@ function closes(){
     document.getElementById("hintcont").style.display = "block";
 }
 
-function login(){
-        window.location.href="happybirthdayameesha.html";        
-    
+function login(){    
     
     var uname = document.getElementById("uname").value;
     var pword = document.getElementById("pword").value;
