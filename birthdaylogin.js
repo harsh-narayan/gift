@@ -13,7 +13,7 @@ function login(){
     var uname = document.getElementById("uname").value;
     var pword = document.getElementById("pword").value;
     
-    if(pword === "sat3237679" && uname === "boobies")
+    if(pword === "sat3147679" && uname === "boobies")
     {
         window.location.href="happybirthdayameesha.html";        
     }
@@ -23,7 +23,7 @@ function login(){
         if(uname === "boobies")
             window.alert("The username is right. But what is the Password?")
 
-        else if(pword === "sat3237679")
+        else if(pword === "sat3147679")
         window.alert("The Password is right. But what is the Username?")
 
         else
